@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/titleAddFragment"
+        android:name="com.example.lesson_531.ui.title.AddTitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title_add" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.lesson_531.ui.title.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+</navigation>

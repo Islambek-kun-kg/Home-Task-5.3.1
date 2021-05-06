@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lesson_5.3.1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_note_item">Add new note item</string>
+    <string name="group">Group</string>
+    <string name="user">User</string>
+    <string name="content">Content</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+</resources>
